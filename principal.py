@@ -60,3 +60,5 @@ if __name__ == '__main__':
                 print(linha)
 
     ler_csv_2('dados.csv')
+
+    ler_csv_2('dados.csv')
