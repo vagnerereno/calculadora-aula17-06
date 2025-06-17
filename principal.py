@@ -52,3 +52,11 @@ if __name__ == '__main__':
                 print(linha)
 
     ler_csv('dados.csv')
+
+    def ler_csv_2(nome_arquivo):
+        with open(nome_arquivo, 'r') as arquivo_csv:
+            leitor = csv.reader(arquivo_csv)
+            for linha in leitor:
+                print(linha)
+
+    ler_csv_2('dados.csv')
